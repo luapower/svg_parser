@@ -30,5 +30,3 @@ Parses a SVG into a cairo scene graph object that can be rendered with [sg_cairo
 
   * `source` is an [expat] source.
 
-
-[expat]: expat.html
