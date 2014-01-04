@@ -1,6 +1,7 @@
 ---
-project: svg_parser
-tagline: svg parser to a cairo scene graph object
+project:  svg_parser
+tagline:  svg parser to a cairo scene graph object
+category: 2D Graphics
 ---
 
 v0.9 | LuaJIT 2 (written in Lua but uses [expat])
