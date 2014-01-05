@@ -4,8 +4,6 @@ tagline:  svg parser to a cairo scene graph object
 category: 2D Graphics
 ---
 
-v0.9 | LuaJIT 2 (written in Lua but uses [expat])
-
 ## `local svg_parser = require'svg_parser'`
 
 A SVG 1.1 parser implemented in Lua. There's a handy collection of svg files to test the parser with.
