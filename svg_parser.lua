@@ -15,7 +15,7 @@ NEVER:
 ]]
 local glue = require'glue'
 local re = require'lpeg.re'
-local colors = require'svg_colors'
+local colors = require'svg_parser_colors'
 local expat = require'expat'
 
 local black = {type='color',0,0,0,1}
