@@ -1,7 +1,6 @@
 ---
 project:  svg_parser
 tagline:  svg parser to a cairo scene graph object
-category: 2D Graphics
 ---
 
 ## `local svg_parser = require'svg_parser'`
