@@ -1,11 +1,16 @@
 ---
-project:  svg_parser
-tagline:  svg parser to a cairo scene graph object
+project: svg_parser
+tagline: SVG parser
 ---
 
 ## `local svg_parser = require'svg_parser'`
 
-A SVG 1.1 parser implemented in Lua. There's a handy collection of svg files to test the parser with.
+A SVG 1.1 parser implemented in Lua.
+
+Unlike other parsers, this one generates a [cairo sceen graph object][sg_cairo] instead of directly rendering
+the SVG file on a canvas, which allows for manipulation of the graphics objects.
+
+Included in the package is a handy collection of SVG files to test the parser with.
 
 Some notable features are not yet implemented:
 
@@ -24,7 +29,7 @@ Low-priority missing features:
 
 ## `svg_parser.parse(source) -> object`
 
-Parses a SVG into a cairo scene graph object that can be rendered with [sg_cairo sg_cairo]. <br>
+Parses a SVG into a cairo scene graph object that can be rendered with [sg_cairo].
 
   * `source` is an [expat] source.
 
