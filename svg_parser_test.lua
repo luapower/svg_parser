@@ -2,8 +2,7 @@ local glue = require'glue'
 local cairo = require'cairo'
 --require'scenegraph.cairopng'
 local winapi = require'winapi'
-require'winapi.window'
-require'winapi.messageloop'
+require'winapi.windowclass'
 local CairoSGPanel = require'winapi.cairosgpanel'
 
 local main = winapi.Window{
