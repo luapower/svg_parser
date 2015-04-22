@@ -27,7 +27,7 @@ Low-priority missing features:
   * icc colors
   * css language
 
-## `svg_parser.parse(source) -> object`
+### `svg_parser.parse(source) -> object`
 
 Parses a SVG into a cairo scene graph object that can be rendered with [sg_cairo].
 
