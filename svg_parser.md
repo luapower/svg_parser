@@ -1,5 +1,4 @@
 ---
-project: svg_parser
 tagline: SVG parser
 ---
 
